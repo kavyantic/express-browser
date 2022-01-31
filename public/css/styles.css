@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+
+
+* {
+  margin:0px;
+  padding:0px;
+}
+
+:root {
+  --trans: .2s;
+}
+
+
+h1,h2,h3,h4,h5 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+#navbar {
+  z-index: 9999;
+  /* position:fixed; */
+  transition: var(--trans);
+  background-color: black;
+  width: 100%;
+  height:120px;
+  display: flex;
+  justify-content: space-between;
+}
+
+#navbar div h3 {
+  height: 20%;;
+  color: white;
+  position: relative;
+}
+
+#navbar > div.nav-collapse {
+  align-self: flex-end;
+  transform: rotate(180deg);
+  margin:1%;
+  transition: var(--trans);
+}
+
+#buffer {
+  margin:auto;
+  width: 100%;
+  display: flex;
+  justify-content:center ;
+  margin-top:10%;
+}
+
+#buffer img {
+
+}
+
+.nav-toggel-button {
+  transition: var(--trans);
+  margin: 0%;
+  transform:rotate(180deg);
+}
+
+.nav-toggel {
+  transition: var(--trans);
+  top:-80px;
+}
+
+
+

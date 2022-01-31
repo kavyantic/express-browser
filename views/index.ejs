@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
+    <title>Document</title>
+</head>
+<body>
+    <nav id="navbar">
+            <div class="url-form">
+                <h3 class="nav__title">Browse</h3>
+               <form action="/browse" method="post">
+                   <input type="url" name="url" id="">
+                   <input type="submit" value="Browse">
+               </form>
+            </div>
+            <div class="download-form">
+                <h3 class="nav__title">Download</h3>
+               <form action="/download" method="post">
+                   <input type="url" name="url" id="">
+                   <input type="submit" value="Download">
+               </form>
+            </div>
+            <div class="nav-links">
+                <ul>
+                    <li></li>
+                </ul>
+            </div>
+            <div class="nav-collapse">
+                <i class="fas fa-chevron-down" style="color:white;"></i>
+            </div>
+    </nav>
+    <div id='page'>
+        <iframe src="" frameborder="0">
+            <div id="buffer"  bis_skin_checked="1"><img src="https://c.tenor.com/K2UGDd4acJUAAAAC/load-loading.gif" alt="Page will apear here" width="300" height="300" alt="Load Loading GIF - Load Loading Waiting GIFs" style="position: relative;"></div>
+
+        </iframe>
+    </div>
+</body>
+<script src="js/index.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.25.0/axios.min.js" integrity="sha512-/Q6t3CASm04EliI1QyIDAA/nDo9R8FQ/BULoUFyN4n/BDdyIxeH7u++Z+eobdmr11gG5D/6nPFyDlnisDwhpYA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</html>
